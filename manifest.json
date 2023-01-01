@@ -1,16 +1,16 @@
 {
     "version": "1.0.0",
     "compatibility": "2.9.0",
-    "id": "mytheme",
-    "name": "Моя тема",
-    "description": "Описание моей темы",
+    "id": "green-tf",
+    "name": "Green TaIFeel",
+    "description": "Зелёная тема, наполовину Spotify",
     "modules": [],
     "accent": {
-        "primary": "#141414",
-        "secondary": "#E9003F"
+        "primary": "#1c1c1c",
+        "secondary": "#1ed760"
     },
     "author": {
-        "name": "Вася Пупкин, дизайнер Google",
-        "contact": "https://vk.com/id0"
+        "name": "Артём Ваганов",
+        "contact": "https://vk.com/taifeel"
     }
 }
