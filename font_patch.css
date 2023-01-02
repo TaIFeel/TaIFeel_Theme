@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,600,400&display=swap');
+
+html.classic-mode {
+	font-weight: 600 !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+span, div{
+	font-weight: 600 !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.modal-window-settings-navigation-item-label{
+	font-weight: 500 !important;
+}

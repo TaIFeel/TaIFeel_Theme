@@ -1,0 +1,86 @@
+#titlebar-main{
+    background-color: #141414 !important;
+}
+
+#titlebar{
+    background-color: #141414 !important;
+}
+
+.songs-list, .wrapper{
+    background-color: #141414;
+    border-radius: 10px;
+    border: 1px solid #202020;
+}
+
+.song{
+    border-radius: 10px !important;
+}
+
+.song.playing{
+    background-color: #101010 !important;
+}
+
+input{
+    border-radius: 10px !important;
+}
+
+.song:hover{
+    background-color: #262626 !important;
+}
+
+#playing-playlist-cover{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+#player-container-song-cover{
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.navigation-item{
+    background-color: #141414;
+    border-radius: 10px;
+}
+
+#left-container.expand .nav-item-link{
+    border-radius: 10px;
+}
+
+#left-container.expand .nav-item-link .icon{
+    margin-right: auto;
+    position: absolute;
+}
+
+#left-container.expand .nav-item-link{
+    padding-left: 10px;
+}
+
+#left-container.expand .nav-item-link-text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.song-cover-image, .song-cover .song-cover-nocover{
+    width: 35px !important;
+    height: 35px !important;
+}
+
+#discover-nav, html.acryl #discover-nav.fixed{
+    background-color: #1c1c1c !important;
+}
+
+#artist-info{
+    border: 1px solid #202020;
+    width: 98%;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    background-color: #141414;
+}
+
+.context-menu{
+    display: block !important;
+    visibility: visible !important;
+}

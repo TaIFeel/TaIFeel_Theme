@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "compatibility": "2.9.0",
+    "id": "taifeel",
+    "name": "TaIFeel Theme",
+    "description": "'TaIFeel Theme' - на данный момент самая крупная тема для Meridus",
+    "modules": ["font_patch.css", "styles.css"],
+    "accent": {
+        "primary": "#1ed760",
+        "secondary": "#1c1c1c"
+    },
+    "author": {
+        "name": "Артём Ваганов",
+        "contact": "https://vk.com/taifeel"
+    }
+}

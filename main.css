@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,400&display=swap');
+
+html.taifeel-mode {
+
+    
+    --primary: #1c1c1c;
+
+    --secondary: #1ed760;
+    --secondary-hover: #1db954;
+    --secondary-opacity-half: #1db954;
+    --secondary-hover-opacity: #1db954;
+    --secondary-disabled: #158b3f;
+
+    --item: #141414;
+}
