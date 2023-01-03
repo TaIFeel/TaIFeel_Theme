@@ -5,6 +5,11 @@
     "name": "TaIFeel Theme",
     "description": "'TaIFeel Theme' - на данный момент самая крупная тема для Meridus",
     "modules": ["font_patch.css", "styles.css"],
+    "repository": {
+        "username": "TaIFeel",
+        "name": "TaIFeel Themes",
+        "branch": "taifeel_theme"
+    },
     "accent": {
         "primary": "#1ed760",
         "secondary": "#1c1c1c"
