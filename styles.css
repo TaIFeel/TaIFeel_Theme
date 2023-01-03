@@ -56,6 +56,11 @@ input{
     padding-left: 10px;
 }
 
+#left-container #nav-queue{
+    height: 60px !important;
+}
+
+
 #left-container.expand .nav-item-link-text{
     margin-left: auto;
     margin-right: auto;
@@ -83,4 +88,55 @@ input{
 .context-menu{
     display: block !important;
     visibility: visible !important;
+}
+
+.expansion-panel-answer .selected{
+    border: 2px solid #FFF;
+}
+
+.color-theme-selected{
+    display: none;
+}
+
+.color-theme-primary, .color-theme-primary-color{
+    border-radius: 100% !important;
+}
+
+.color-theme-primary{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.app-button:hover{
+    background-color: #202020 !important;
+}
+
+#titlebar-buttons-app .close:hover{
+    background-color: #910000 !important;
+}
+
+
+#modal-window-settings-tab-appearance-themes-folders{
+    justify-content: center;
+}
+
+#modal-window-settings-tab-appearance-themes .small-text{
+    text-align: center;
+}
+
+.modal-window-settings-category-label{
+    text-align: center;
+}
+
+
+#modal-window-settings-tab-appearance-themes .expansion-panel:last-child{
+    margin-bottom: 0;
+}
+
+.expansion-panel-question{
+    justify-content: center !important;
+}
+
+.custom-list-text{
+    text-align: center;
 }

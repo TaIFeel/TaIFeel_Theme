@@ -6,7 +6,7 @@ html.classic-mode {
 
 }
 
-span, div{
+span, div, input{
 	font-weight: 600 !important;
     font-family: 'Montserrat' !important;
 
