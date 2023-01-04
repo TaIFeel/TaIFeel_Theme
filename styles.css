@@ -47,20 +47,10 @@ input{
     border-radius: 10px;
 }
 
-#left-container.expand .nav-item-link{
-    padding-left: 10px;
-}
-
-#left-container #nav-queue{
-    height: 60px !important;
-}
-
-
 #left-container.expand .nav-item-link-text{
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .song-cover-image, .song-cover .song-cover-nocover{
     width: 35px !important;
