@@ -47,6 +47,15 @@ input{
     border-radius: 10px;
 }
 
+#left-container.expand .nav-item-link .icon{
+    margin-right: auto;
+    position: absolute;
+}
+
+#left-container.expand .nav-item-link{
+    padding-left: 10px;
+}
+
 #left-container.expand .nav-item-link-text{
     margin-left: auto;
     margin-right: auto;
