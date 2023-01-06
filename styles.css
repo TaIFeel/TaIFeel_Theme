@@ -153,14 +153,10 @@ input{
     justify-content: center;
 }
 
-#modal-window-settings-tab-appearance-themes .small-text{
-    text-align: center;
-}
 
 .modal-window-settings-category-label{
     text-align: center;
 }
-
 
 #modal-window-settings-tab-appearance-themes .expansion-panel:last-child{
     margin-bottom: 0;
