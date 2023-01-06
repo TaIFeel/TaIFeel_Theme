@@ -1,15 +1,19 @@
 #titlebar-main{
-    background-color: #141414 !important;
+    background-color: var(--item) !important;
+    border-bottom: solid 1px var(--border_color) !important;
+
 }
 
 #titlebar{
-    background-color: #141414 !important;
+    border-bottom: solid 2px var(--border_color) !important;
+
+    background-color: var(--item) !important;
 }
 
 .songs-list, .wrapper{
-    background-color: #141414;
+    background-color: var(--item);
     border-radius: 10px;
-    border: 1px solid #202020;
+    border: 1px solid var(--border_color);
 }
 
 .song{
@@ -38,8 +42,42 @@ input{
     height: 45px !important;
 }
 
+.navigation-item.active{
+    border: 2px solid var(--secondary) !important;
+}
+
+.context-menu{
+    border: 2px solid var(--secondary);
+}
+
+#artist-page-content-top-cover-main-buttons .solid-button{
+    padding: 0 !important;
+}
+
+.solid-button{
+    border-radius: 20px !important;
+}
+
+#artist-page-content-top-cover-main-name{
+    font-weight: 700 !important;
+}
+
+#discover-nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-item:hover{
+    border: 2px solid var(--secondary) !important;
+}
+
 .navigation-item{
-    background-color: #141414;
+    border-bottom: 0;
+    border: 2px solid transparent !important;
+    transition: border .2s ease-in !important;
+    background-color: var(--item);
     border-radius: 10px;
 }
 
@@ -71,13 +109,13 @@ input{
 }
 
 #artist-info{
-    border: 1px solid #202020;
+    border: 1px solid var(--border_color);
     width: 98%;
     border-radius: 10px;
     margin-left: 8px;
     margin-right: 8px;
     margin-top: 10px;
-    background-color: #141414;
+    background-color: var(--item);
 }
 
 .context-menu{
@@ -103,7 +141,7 @@ input{
 }
 
 .app-button:hover{
-    background-color: #202020 !important;
+    background-color: var(--border_color) !important;
 }
 
 #titlebar-buttons-app .close:hover{
@@ -134,4 +172,8 @@ input{
 
 .custom-list-text{
     text-align: center;
+}
+
+.color-theme-header__name{
+    font-size: 15px;
 }
