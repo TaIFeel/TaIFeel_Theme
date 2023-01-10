@@ -9,7 +9,18 @@ html.classic-mode {
 span, div, input{
 	font-weight: 600 !important;
     font-family: 'Montserrat' !important;
+}
 
+.modal-window-tip{
+	font-weight: 500 !important;
+}
+
+.song-name-container-performer-single{
+	font-weight: 700 !important;
+}
+
+.song-album-title{
+	font-weight: 500 !important;
 }
 
 .modal-window-settings-navigation-item-label{

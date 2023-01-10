@@ -1,6 +1,6 @@
 {
     "version": "1.2.0",
-    "compatibility": "2.9.0-beta.4",
+    "compatibility": "2.9.0-beta.5",
     "id": "taifeel",
     "name": "TaIFeel Theme",
     "description": "'TaIFeel Theme' - на данный момент самая крупная тема для Meridus",
@@ -9,6 +9,78 @@
         "username": "TaIFeel",
         "name": "TaIFeel_Themes",
         "branch": "taifeel_theme"
+    },
+    "variables": {
+        "primary": {
+            "value": "#1c1c1c",
+            "name": {
+                "ru": "Моя переменная",
+                "en": "My variable"
+            }
+        },
+        "border": {
+            "value": "#202020",
+            "name":{
+                "ru":"Цвет обводки",
+                "en":"Color border"
+            }
+        },
+        "secondary": {
+            "value": "#1ed760",
+            "name": {
+                "ru": "Моя переменная",
+                "en": "My variable"
+            }
+        },
+        "secondary-hover": {
+            "value": "#1db954",
+            "name": {
+                "ru": "Моя переменная",
+                "en": "My variable"
+            }
+        },
+        "secondary-opacity-half": {
+            "value": "#1db954",
+            "name": {
+                "ru": "Моя переменная",
+                "en": "My variable"
+            }
+        },
+        "secondary-hover-opacity": {
+            "value": "#1db954",
+            "name": {
+                "ru": "Моя переменная",
+                "en": "My variable"
+            }
+        },
+        "secondary-disabled": {
+            "value": "#158b3f",
+            "name": {
+                "ru": "Моя переменная",
+                "en": "My variable"
+            }
+        },
+        "item": {
+            "value": "#141414",
+            "name": {
+                "ru": "Моя переменная",
+                "en": "My variable"
+            }
+        },
+        "song-playing": {
+            "value": "#101010",
+            "name": {
+                "ru": "Цвет играющего трека",
+                "en": "Color of playing track"
+            }
+        },
+        "song-hover": {
+            "value": "#262626",
+            "name": {
+                "ru": "Цвет при наведении на трек",
+                "en": "Color of hover on track"
+            }
+        }
     },
     "accent": {
         "primary": "#1ed760",
@@ -19,3 +91,4 @@
         "contact": "https://vk.com/taifeel"
     }
 }
+

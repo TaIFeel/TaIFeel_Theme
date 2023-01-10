@@ -1,36 +1,41 @@
 #titlebar-main{
     background-color: var(--item) !important;
-    border-bottom: solid 1px var(--border_color) !important;
+    border-bottom: solid 1px var(--border) !important;
 
 }
 
 #titlebar{
-    border-bottom: solid 2px var(--border_color) !important;
+    border-bottom: solid 2px var(--border) !important;
 
     background-color: var(--item) !important;
 }
 
 .songs-list, .wrapper{
     background-color: var(--item);
-    border-radius: 10px;
-    border: 1px solid var(--border_color);
+    border-radius: 20px;
+    border: 1px solid var(--border);
 }
 
 .song{
-    border-radius: 10px !important;
+    border-radius: 20px !important;
 }
 
 .song.playing{
-    background-color: #101010 !important;
+    background-color: var(--song-playing) !important;
+}
+
+#meridius-label{
+    border-bottom: 2px solid var(--border);
+}
+
+.song:hover{
+    background-color: var(--song-hover) !important;
 }
 
 input{
     border-radius: 10px !important;
 }
 
-.song:hover{
-    background-color: #262626 !important;
-}
 
 #playing-playlist-cover{
     width: 25px !important;
@@ -105,11 +110,15 @@ input{
 }
 
 #discover-nav, html.acryl #discover-nav.fixed{
-    background-color: #1c1c1c !important;
+    background-color: var(--primary) !important;
+}
+
+#nav-queue-cover{
+    border-radius: 10px !important;
 }
 
 #artist-info{
-    border: 1px solid var(--border_color);
+    border: 1px solid var(--border);
     width: 98%;
     border-radius: 10px;
     margin-left: 8px;
@@ -131,9 +140,6 @@ input{
     display: none;
 }
 
-.color-theme-primary, .color-theme-primary-color{
-    border-radius: 100% !important;
-}
 
 .color-theme-primary{
     width: 20px !important;
@@ -141,7 +147,7 @@ input{
 }
 
 .app-button:hover{
-    background-color: var(--border_color) !important;
+    background-color: var(--border) !important;
 }
 
 #titlebar-buttons-app .close:hover{
@@ -155,6 +161,7 @@ input{
 
 
 .modal-window-settings-category-label{
+    border-radius: 20px !important;
     text-align: center;
 }
 
@@ -173,3 +180,24 @@ input{
 .color-theme-header__name{
     font-size: 15px;
 }
+
+#playlist-page-header{
+    padding: 0 !important;
+
+    margin: 0 10px !important;
+
+    background-color: var(--primary) !important;
+    border-bottom: 1px solid var(--border);
+}
+
+#filter-block .filter-input{
+    border: 2px solid var(--border) !important;
+}
+
+
+.round-play-button{
+    width: 40px !important;
+    height: 40px !important;
+}
+
+/* Объясни, зачем ты это открыл? Ну что ты хочешь найти? Если хочешь что-бы какую то кастомизацию можно было менять то пиши в лс! */

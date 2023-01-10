@@ -1,14 +1,19 @@
 html.taifeel-mode {
 
-    --border_color: #202020;
+    --border: #202020;
     
     --primary: #1c1c1c;
+
+    --test: #fff;
 
     --secondary: #1ed760;
     --secondary-hover: #1db954;
     --secondary-opacity-half: #1db954;
     --secondary-hover-opacity: #1db954;
     --secondary-disabled: #158b3f;
+
+    --song-playing: #101010;
+    --song-hover: #262626;
 
     --item: #141414;
 }
