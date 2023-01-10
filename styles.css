@@ -24,10 +24,6 @@
     background-color: var(--song-playing) !important;
 }
 
-#meridius-label{
-    border-bottom: 2px solid var(--border);
-}
-
 .song:hover{
     background-color: var(--song-hover) !important;
 }
