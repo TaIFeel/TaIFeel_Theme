@@ -32,10 +32,17 @@ input{
     border-radius: 10px !important;
 }
 
+.nav-item-link{
+    border-radius: 10px !important;
+}
 
 #playing-playlist-cover{
     width: 25px !important;
     height: 25px !important;
+}
+
+#player{
+    border-top: 2px solid var(--border);
 }
 
 #player-container-song-cover{

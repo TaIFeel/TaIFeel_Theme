@@ -3,6 +3,11 @@ html.taifeel-mode {
     --border: #202020;
     
     --primary: #1c1c1c;
+    --item: #141414;
+
+
+    --left: var(--item);
+    --player: var(--item);
 
     --test: #fff;
 
@@ -15,5 +20,4 @@ html.taifeel-mode {
     --song-playing: #101010;
     --song-hover: #262626;
 
-    --item: #141414;
 }
