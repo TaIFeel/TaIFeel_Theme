@@ -9,8 +9,6 @@ html.taifeel-mode {
     --left: var(--item);
     --player: var(--item);
 
-    --test: #fff;
-
     --secondary: #1ed760;
     --secondary-hover: #1db954;
     --secondary-opacity-half: #1db954;
