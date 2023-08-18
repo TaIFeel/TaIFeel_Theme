@@ -14,8 +14,8 @@
         "primary": {
             "value": "#1c1c1c",
             "name": {
-                "ru": "Моя переменная",
-                "en": "My variable"
+                "ru": "Основной цвет",
+                "en": "Main color"
             }
         },
         "border": {
@@ -28,15 +28,15 @@
         "secondary": {
             "value": "#1ed760",
             "name": {
-                "ru": "Моя переменная",
-                "en": "My variable"
+                "ru": "Дополнительный цвет",
+                "en": "Additional color"
             }
         },
         "secondary-hover": {
             "value": "#1db954",
             "name": {
-                "ru": "Моя переменная",
-                "en": "My variable"
+                "ru": "Дополнительный цвет при навденеии",
+                "en": "Additional color on hover"
             }
         },
         "secondary-opacity-half": {
@@ -63,7 +63,7 @@
         "item": {
             "value": "#141414",
             "name": {
-                "ru": "Моя переменная",
+                "ru": "Цвет отдельного элэмента",
                 "en": "My variable"
             }
         },
